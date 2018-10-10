@@ -16,6 +16,10 @@ def recebendoMsg(msg):
     else:
         if mensagem == "Oi":
             bot.sendMessage(chatID,'Oi')
+        if mensagem == 'Tudo bem?':
+            bot.sendMessage(chatID,'Tudo e vc?')
+        if mensagem == 'Tchau':
+            bot.sendMessage(chatID,'Tchau, até a próxima! :)')
 
     if mensagem == '/produto':
         bot.sendMessage(chatID,"Digite o que você deseja comprar:")
